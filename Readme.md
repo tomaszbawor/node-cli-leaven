@@ -1,4 +1,5 @@
 # Node CLI Leaven
+[![code style](https://antfu.me/badge-code-style.svg)](https://github.com/antfu/eslint-config)
 
 This project is created as a scaffold for creating Node CLI applications.
 
