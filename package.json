@@ -9,7 +9,6 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "cz": "cz",
-    "prepare": "husky install",
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
@@ -20,14 +19,20 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^1.1.0",
     "@commitlint/cli": "^18.2.0",
     "@commitlint/config-conventional": "^18.1.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.53.0",
-    "husky": "^8.0.3",
     "lint-staged": "^15.0.2",
+    "simple-git-hooks": "^2.9.0",
     "standard-version": "^9.5.0"
   }
 }

@@ -28,3 +28,16 @@ npm install
 - [x] Commit lint for [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - [x] Automatic changelog generation based on commits
 
+### Git Hooks
+- [x] Pre-commit hook to lint staged files
+- [x] Commit-msg hook to lint commit messages
+
+#### Commitlint
+Commitlint is a tool to lint your commit messages. It ensures that your commit messages meet the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) format.
+
+You may use helper node script to commit changes with message following proper format:
+
+```bash
+npm run cz
+```
+
