@@ -1,6 +1,6 @@
 {
   "name": "cli-leaven",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Leaven for cli tools in typescript ",
   "author": "Tomasz Bawor",
   "license": "ISC",
