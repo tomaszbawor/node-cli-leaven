@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "cz": "cz",
-    "prepare": "npx simple-git-hooks",
+    "prepare": "husky install",
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
@@ -27,15 +27,11 @@
     "@commitlint/config-conventional": "^18.1.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.53.0",
+    "husky": "^8.0.3",
     "lint-staged": "^15.0.2",
-    "simple-git-hooks": "^2.9.0",
     "standard-version": "^9.5.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "npx lint-staged",
-    "commit-msg": "npx --no -- commitlint --edit \"$1\"\n"
   },
   "lint-staged": {
     "*": "eslint --fix"
