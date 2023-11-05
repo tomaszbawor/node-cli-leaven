@@ -21,6 +21,9 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^1.1.0",
     "@commitlint/cli": "^18.2.0",
@@ -30,7 +33,6 @@
     "husky": "^8.0.3",
     "lint-staged": "^15.0.2",
     "standard-version": "^9.5.0",
-    "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
   "lint-staged": {
