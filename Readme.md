@@ -26,7 +26,6 @@ npm install
 - [x] [TypeScript](https://www.typescriptlang.org/) support
 - [x] [ESLint](https://eslint.org/) configuration based on [antfu configuration](https://github.com/antfu/eslint-config)
 - [x] [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) with [Commitlint](https://commitlint.js.org/#/) and [Husky](https://typicode.github.io/husky/#/)
-- [x] Commit lint for [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - [x] Automatic changelog generation based on commits
 
 ### Git Hooks
